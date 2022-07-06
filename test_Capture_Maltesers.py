@@ -18,7 +18,7 @@ while True:
         break
     elif k%256 == 32:
         # SPACE pressed
-        img_name = "Snickers_degrade_{}.png".format(img_counter)
+        img_name = "Maltesers_{}.png".format(img_counter)
         # Cropping an image Y1:Y2 , X1:X2
         cropped_image = frame[115:365, 140:390]
         cv2.imwrite(img_name, cropped_image)
